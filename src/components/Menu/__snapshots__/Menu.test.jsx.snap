@@ -335,7 +335,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 }
 
 .c10::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0.76rem;
   left: 50%;

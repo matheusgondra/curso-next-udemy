@@ -22,7 +22,7 @@ exports[`<NavLinks /> should match snapshot 1`] = `
 }
 
 .c1::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0.76rem;
   left: 50%;

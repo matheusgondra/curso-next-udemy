@@ -41,7 +41,7 @@ describe("<MenuLink />", () => {
       }
 
       .c0::after {
-        content: '';
+        content: "";
         position: absolute;
         bottom: 0.76rem;
         left: 50%;
