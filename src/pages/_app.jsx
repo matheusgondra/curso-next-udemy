@@ -1,10 +1,15 @@
 import { theme } from "@/styles/theme";
 import { ThemeProvider } from "styled-components";
+import { AppProps } from "next/app";
 
-export default function App({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
       <Component {...pageProps} />
     </ThemeProvider>
-  )
+  );
 }
+
+export default MyApp;
+
+MyApp.propTypes = AppProps;
